@@ -130,33 +130,6 @@ img{
     font-size: 0.6rem;
     display: inline-block;
 }
-@media screen and (min-width: 480px) {
-    .content h1{
-        font-size: 3rem;
-    }
-    .time-show{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .time-show div{
-        flex: 0 0 calc(50% - 1rem);
-        width: 190px;
-        height: 180px;
-    }
-}
-@media screen and (min-width: 768px) {
-    .content h1{
-        font-size: 3.4rem;
-    }
-}
-@media screen and (min-width: 992px) {
-    .container{
-        padding: 0 3rem;
-    }
-    .time-show div{
-        flex: 0 0 calc(25% - 1rem);
-    }
-}
 
 .container-left{
     padding: 0.3rem;
@@ -251,3 +224,52 @@ img{
         transform: rotate(360deg);
     }
 }
+
+
+@media screen and (min-width: 480px) {
+    .content h1{
+        font-size: 1.4rem;
+    }
+    .content h2{
+        font-size: 0.7rem;
+    }
+    .time-show{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .time-show div{
+        flex: 0 0 calc(50% - 1rem);
+        width: 100px;
+        height: 120px;
+    }
+    .container-left, .container-right{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .content h1{
+        font-size: 3.4rem;
+    }
+    .content h2{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .container{
+        padding: 0 3rem;
+    }
+    .time-show div{
+        flex: 0 0 calc(25% - 1rem);
+    }
+    .container-left, .container-right{
+        display: flex;
+    }
+    img{
+        display: flex;
+    }
+}
+
+
