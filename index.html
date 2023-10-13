@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaPianist wishes you a merry x-mass</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="containers">
+        <!-- left container -->
+        <div class="container-left">
+            <div class="rect"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+        </div>
+        <!-- --------- the div for the xmass container --------- -->
+        <div class="container">
+            <!----------- video --------->
+            <video autoplay muted loop id="bg-video">
+                <source src="bg.mp4" type="video/mp4">
+            </video>
+
+            <img src="my.jpg">
+    
+            <div class="content">
+                <h1>Christmas is coming soon</h1>
+                <h2>It's the most wonderful time of the year 
+                    <br>when christ was born</h2>
+    
+                <div class="time-show">
+                    <div>
+                        <span id="days"></span>
+                        <p>days</p>
+                    </div>
+                    <div>
+                        <span id="hours"></span>
+                        <p>hours</p>
+                    </div>
+                    <div>
+                        <span id="minutes"></span>
+                        <p>minutes</p>
+                    </div>
+                    <div>
+                        <span id="seconds"></span>
+                        <p>seconds</p>
+                    </div>
+                </div>
+                <blockquote>
+                    <sup>
+                        <span>
+                            <i class="fas fa-quote-left"></i>
+                        </span>
+                    </sup>
+                    Daniel wishes you a merry Christmas and a happy new year 2024
+                    <sup>
+                        <span>
+                            <i class="fas fa-quote-right"></i>
+                        </span>
+                    </sup>
+                </blockquote>
+            </div>
+            <!-- --------- the div for the orbiting container --------- -->
+            <div class="earth">
+                <div class="moon"></div>
+            </div>
+        </div>
+
+
+        <!-- right container -->
+        <div class="container-right">
+            <div class="rect"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+        </div>       
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
